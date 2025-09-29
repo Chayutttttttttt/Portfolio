@@ -1,0 +1,76 @@
+
+.welcome {
+    padding-top: 120px;
+    padding-bottom: 300px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+}
+
+.welcome .welcome-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width:800px;
+    text-align: center;
+}
+
+.welcome .welcome-text {
+    font-weight:300;
+    color: black;
+}
+
+.welcome .welcome-header {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 10s ease-in-out infinite;
+}
+
+.welcome .transition-text {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-size: 70px;
+    min-height: 170px;
+    max-width: 1000px;
+    margin-bottom: -10px;
+    background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 10s ease-in-out infinite;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+.welcome .transition-text:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+@keyframes gradientAnimation {
+    0%{background-position:0% 50%}
+    25%{background-position:50% 50%}
+    50%{background-position:100% 50%}
+    75%{background-position:50% 50%}
+    100%{background-position:0% 50%}
+    
+}
+.welcome .welcome-contain {
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+    margin-top: 20px;
+}
