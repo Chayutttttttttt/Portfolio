@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./welcome.css";
 
 function Welcome() {
@@ -20,13 +20,27 @@ function Welcome() {
         <div className="welcome">
             <div className="welcome-box">
                 <div className="welcome-container">
+                    <div className="area">
+                        <div className="circles">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </div>
+                    </div>
                     <div className="welcome-text">
                         <h1 className="welcome-header">Hi it's me</h1>
                         <h1
                             id="name_changed"
                             className={`transition-text`}
                             style={{
-                                fontWeight: isEnglish ? 900 : 700,
+                                fontWeight: isEnglish ? 900 : 600,
                                 opacity: fade ? 1 : 0,
                                 fontFamily: isEnglish
                                     ? "Zalando Sans Expanded, sans-serif"
