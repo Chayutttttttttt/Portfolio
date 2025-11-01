@@ -8,8 +8,6 @@ function About() {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             entry.target.classList.add("show")
-          } else {
-            entry.target.classList.remove("show")
           }
         })},{
         threshold: 0.2,
@@ -22,7 +20,7 @@ function About() {
   }, [])
   return (
     <>
-        <div id = "about" className="about h-screen">
+        <div id="about" className="about h-screen">
             <div className="about-box">
                 <div className="about-container">
                     <div className="about-img-box">
@@ -79,7 +77,7 @@ function About() {
                             ผมชอบการทำงานมาก ผมทำงานกับทีมได้ดีเลย 
                             ผมเป็นคนที่พร้อมจะพัฒนาตัวเองในทุกวันครับ
                         </p>
-                        <p>ปัจจุบันผมกำลังศึกษาภาษา Python ,C++ ,HTML ,CSS ,JavaScripts ,React ,TailwindCSS, Django,
+                        <p>ปัจจุบันผมกำลังศึกษาภาษา Python ,C++ ,HTML ,CSS ,JavaScripts ,React ,TailwindCSS, FastAPI,
                             ส่วน ภาษาอื่นๆ ที่ผมศึกษาก็มีคือ Lua สำหรับทำเกมจาก Roblox</p>
                         <p></p>
                     </div>
