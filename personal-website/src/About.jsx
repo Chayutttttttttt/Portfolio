@@ -26,7 +26,7 @@ function About() {
                     <div className="about-img-box">
                         <div className="about-img-container">
                             <div className="about-img">
-                                <img src="./src/assets/better.JPG" alt="profile" className="img" style={{animation : "img-moving 5s ease-in-out infinite"}} />
+                                <img src="http://localhost:8000/api/my-img" alt="profile" className="img" style={{animation : "img-moving 5s ease-in-out infinite"}} />
                             </div>
                             <div className="shapes">
                                 <li className="top-[100px] right-[600px]
