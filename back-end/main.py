@@ -19,8 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-IMG_PATH = os.path.join("img","me.png")
-
 @app.get("/api/skills")
 def log_skills():
     return [{"name": "Python", "level": "Advanced"},
@@ -29,8 +27,6 @@ def log_skills():
 
 @app.get("/api/my-img")
 def get_my_img():
-    if os.path.exists(IMG_PATH):
-        return FileResponse(IMG_PATH,media_type="img/png")
-    return {"Error":"Img not found"}
+    return FileResponse("img/me.png")
 
 app.mount("/",StaticFiles(directory="../personal-website/dist",html=True),name="fontend")
