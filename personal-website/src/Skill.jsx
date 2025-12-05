@@ -1,13 +1,12 @@
 import { useState,useEffect } from "react";
 import "./skill.css";
 
-
 export default function skill() {    
     const [skills, setSkills] = useState([]);
     const [activeSkill, setActiveSkill] = useState(null);
 
     useEffect(() => {
-        fetch("http://127.0.0.1:8000/api/skills").then((res) => res.json())
+        fetch("https://website-api-9hff.onrender.com/api/skills").then((res) => res.json())
         .then((data) => setSkills(data))
         .catch((err) => console.error("ERROR CAN'T LOAD DATA",err));
     },[]);
