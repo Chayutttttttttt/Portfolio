@@ -8,17 +8,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-bottom: 6px solid;
-    border-image:  linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000) 1;
-}
-
-.welcome:after {
-    content: "";
-    position: absolute;
-    inset: -6px;
-    border-radius: inherit;
-    box-shadow: 0 0 10px rgba(0, 170, 255,0.5);
-    pointer-events: none;
 }
 
 .welcome .area .circles {
