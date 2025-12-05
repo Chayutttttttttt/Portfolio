@@ -58,6 +58,9 @@ function Welcome() {
                     </div>
                 </div>
             </div>
+            <div className="-z-1 absolute opacity-10">
+                <img src="http://localhost:8000/img/table.png"/>
+            </div>
         </div>
     );
 }

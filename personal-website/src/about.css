@@ -1,12 +1,9 @@
-@import "tailwindcss";
-
 .about {
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
     padding-top: 5px;
-    padding-bottom: 5px;
     display: flex;
     overflow:visible;
     background: linear-gradient(270deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -21,12 +18,12 @@
 }
 
 .about-box {
+    background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding-top:100px;
-    background-color: whitesmoke;
     padding-bottom: 30px;
 }
 
@@ -97,7 +94,6 @@
     padding-left: 350px;
     padding-right: 350px;
     font-family: 'Kanit',sans-serif;
-    text-shadow: var(--text-shadow-2xs);
 }
 
 .text-header {
