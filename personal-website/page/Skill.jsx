@@ -14,13 +14,13 @@ export default function skill() {
     return (
         <>
             <div id="skill" className="skill">
-                <h2 className="skill-title">Skills</h2>
+                <h2 className="skill-title">Skills & Experience</h2>
                 <div className="container">
                     {skills.map((skill) =>
                         <div key={skill.id}>
                             {activeSkill === skill.id && (
-                                <div className="popup-bg" onClick={() => setActiveSkill(false)}>
-                                    <div className="popup" onClick={() => setActiveSkill(activeSkill)}>
+                                <div className="popup-bg">
+                                    <div className="popup">
                                         <h2 className="skill-name">{skill.name}</h2>
                                         <button className="back" onClick={() => setActiveSkill(false)}>Back</button>
                                     </div>

@@ -59,7 +59,7 @@ function Welcome() {
                 </div>
             </div>
             <div className="-z-1 absolute opacity-10">
-                <img src="http://localhost:8000/img/table.png"/>
+                <img src="https://website-api-9hff.onrender.com/img/table.png"/>
             </div>
         </div>
     );
