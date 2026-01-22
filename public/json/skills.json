@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1 ,
+        "name": "Python",
+        "detail": "Advanced",
+        "tag":"python"
+    },
+    {
+        "id": 2 ,
+        "name": "React", 
+        "detail": "Intermediate",
+        "tag":"react"
+    },
+    {
+        "id": 4 ,
+        "name": "Lua", 
+        "detail": "Intermediate",
+        "tag":"lua"
+    }
+]
